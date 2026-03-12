@@ -1,0 +1,99 @@
+.hero {
+    padding: 40px 0px 400px;
+}
+
+.hero-wrapper{
+    display:flex;
+    flex-direction:column;
+}
+
+.hero h1{
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 18px;
+    color: #252525;
+    text-align: center;
+}
+
+.hero-wrapper-create-block{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+    gap: 32px;
+}
+
+.hero-wrapper-create-input{
+    border: 1px solid #6C63FF;
+    border-radius: 5px; 
+    padding: 11px 16px;
+    width: 100%;
+}
+
+.hero-wrapper-create-input::placeholder{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color:#C3C1E5;
+}
+
+.hero-wrapper-create-block button{
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    background-color: #6C63FF;
+    border: none;
+    border-radius:5px;
+    padding:10px;
+}
+
+.hero-wrapper-tasks-list{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:17px;
+
+}
+
+.hero-wrapper-task-item{
+    display:flex;
+    align-items: center;
+    max-width: 520px;
+    width:100%;
+    gap: 10px;
+    padding: 17px 0 17px;
+    justify-content: space-between;
+    border-bottom: 1px solid #6C63FF
+}
+
+.hero-wrapper-task-item input{
+    width: 26px;
+    height: 26px;
+}
+
+
+.hero-wrapper-task-item h2, p{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #252525;
+    max-width: 89px;
+    width:100%
+}
+
+.hero-wrapper-task-item p{
+    color: #C3C1E5;
+    max-width: 314px;
+    width:100%;
+}
+
+.hero-wrapper-task-item-icons {
+    display: flex;
+    padding: 8px 0 8px;
+    gap: 10px;
+    width: 62px;
+}
+
+
+
