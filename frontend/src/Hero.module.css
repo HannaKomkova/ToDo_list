@@ -1,5 +1,6 @@
 .hero {
     padding: 40px 0px 400px;
+    position: relative;
 }
 
 .hero-wrapper{
@@ -58,7 +59,7 @@
 .hero-wrapper-task-item{
     display:flex;
     align-items: center;
-    max-width: 520px;
+    max-width: 800px;
     width:100%;
     gap: 10px;
     padding: 17px 0 17px;
@@ -73,18 +74,18 @@
 
 
 .hero-wrapper-task-item h2, p{
-    font-weight: 300;
-    font-size: 10px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 100%;
     text-transform: uppercase;
     color: #252525;
-    max-width: 89px;
-    width:100%
+    width:100%;
+    max-width:350px;
 }
 
 .hero-wrapper-task-item p{
     color: #C3C1E5;
-    max-width: 314px;
+    max-width:350px;
     width:100%;
 }
 
@@ -93,6 +94,97 @@
     padding: 8px 0 8px;
     gap: 10px;
     width: 62px;
+}
+
+.modal-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    border-radius: 16px;
+    padding: 18px 30px;
+    z-index: 1001; 
+    min-width: 400px;
+}
+
+/* .modal-overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    backdrop-filter: blur(5px);
+    z-index: 1000; 
+} */
+
+.modal h3{
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #252525;
+    margin-bottom: 25px;
+    
+}
+
+.modal-inputs{
+    margin-bottom: 68px;
+    max-width: 440px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal input {
+    border: 1px solid #6C63FF;
+    border-radius: 5px;
+    padding: 9px 16px;    
+}
+
+.modal-input::placeholder {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #C3C1E5;
+    opacity: 1;
+}
+
+.modal-buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 233px;
+}
+
+.modal-buttons button{
+    padding: 10px 22px;
+
+}
+
+.modal-button-empty {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #6C63FF;
+    border: 1px solid #6C63FF;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.modal-button-full{
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    background-color:#6C63FF;
+    border-radius: 5px;
+    border:none;
 }
 
 
